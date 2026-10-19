@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Env
+.env
+server/.env
+!.env.example
+
+# Build output
+client/dist/
+server/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Uploads (locally generated certificate PDFs, etc.)
+server/uploads/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

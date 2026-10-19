@@ -1,0 +1,15 @@
+module.exports = {
+  User: require('./User'),
+  Course: require('./Course'),
+  Module: require('./Module'),
+  Lesson: require('./Lesson'),
+  Enrollment: require('./Enrollment'),
+  Progress: require('./Progress'),
+  Quiz: require('./Quiz'),
+  Question: require('./Question'),
+  QuizAttempt: require('./QuizAttempt'),
+  ProctorSession: require('./ProctorSession'),
+  ProctorEvent: require('./ProctorEvent'),
+  Notification: require('./Notification'),
+  Certificate: require('./Certificate'),
+};
